@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main
+{
+    background-color: #333;
+    width: 30vw;
+    height: 90vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.heading
+{
+    background-color: #dbc941;
+    width: 90%;
+    height: 6vh;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+
+}
+
+.text-heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 6vh;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    gap: 3px;
+}
+
+.guess
+{
+    color: whitesmoke;
+    font-weight: 700;
+    width: 90%;
+    height: 6vh;
+    font-size: 2rem;
+    margin-top: 20px;
+    border: 1px solid white ;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 10px;
+}
+
+.leftI
+{
+    margin-right: 25px;
+}
+
+.rightI
+{
+    margin-left: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    height: 15vh;
+}
+
+input
+{
+    width: 50%;
+    height: 4vh;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10%;
+}
+
+#submit
+{
+    padding-left: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus
+{
+    border: none;
+    outline: none;
+}
+
+#submit:hover
+{
+    background-color: rgb(198, 186, 186);
+    transition: background-color 0.2s ease;
+}
+
+
+.result-area
+{
+    width: 90%;
+    height: 25vh;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bottom
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.bottom>p
+{
+    margin-left: 20px;
+    background-color: #5c5b53;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+.lowOrHi
+{
+    text-align: center;
+    width: 90%;
+    height: 5vh;
+}
+
+.win
+{
+    background-color: white;
+    width: 90%;
+    height: 8vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.winMessage
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    /* margin-top: 10px; */
+}

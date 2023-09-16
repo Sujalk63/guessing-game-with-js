@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3069a6c3f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">Guess the number game</div>
+        <div class="text-heading">
+            <p>Rules: Try and guess a number between 1 and 100</p>
+            <p>You have 10 attemts to guess the right number</p>
+        </div>
+        <div class="guess">
+            <p> <i class="fa-solid fa-down-long leftI"></i> GUESS A NUMBER <i class="fa-solid fa-down-long rightI"></i></p>
+        </div>
+
+        <form action="">
+            <input id="guessField" placeholder="Enter your guess here" type="text">
+            <input id="submit" type="submit"  value="Submit guess">
+        </form>
+
+        <div class="result-area">
+            <div class="bottom">
+                <p>Previous guesses: <span class="guesses"></span></p>
+            <p>Guesses remaining: <span class="lastResult"></span></p>
+            <p >Hint: <span class="lowOrhi"></span></p>
+            </div>
+        </div>
+            
+        <div class="win">
+            <span class="winMessage"></span>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+
+<!-- <i class="fa-solid fa-down-long"></i> -->
